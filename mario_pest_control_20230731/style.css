@@ -1,0 +1,51 @@
+body {
+    /* background-color: lightgray; */
+    font-family: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+
+    
+    font-size: 20px;
+}
+
+h1 {
+    
+    margin-left: 110px;
+}
+
+.form-container {
+
+    font-family: monospace;
+    background-color: burlywood;
+    margin-left: 200px;
+    max-width: 500px;
+    min-width: 500px;
+    padding-left: 30px;
+    
+}
+
+input {
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+.images {
+    height: 50px;
+}
+

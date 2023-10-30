@@ -1,0 +1,26 @@
+html {
+    margin-left: 500px;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.topHeader {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: gray;
+}
+
+.form-sections {
+    padding: 30px;
+
+}
+
+.result-display {
+    color: lightpink;
+    font-size: 20px;
+    font-family: monospace;
+
+}

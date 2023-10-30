@@ -1,0 +1,55 @@
+
+// Use the Rest Operator to help this function return an array of animals, no matter how many animals are passed to it:
+
+// function collectAnimals(...animals) {  
+//     return [...animals]
+    
+// }
+
+// console.log(collectAnimals("dog", "cat", "mouse", "jackolope", "platypus")); 
+// ["dog", "cat", "mouse", "jackolope", "platypus"]
+
+
+// Write a function that returns a food object with the array names as properties. You'll use an ES6 shorthand syntax that becomes useful when a variable name is mentioned twice in both the name and value of properties in your object:
+
+// function combineFruit(fruit, sweets, vegetables){
+//     return {
+//         fruit: [...fruit],
+//         sweets: [...sweets],
+//         vegetables: [...vegetables]
+//     }
+// }
+
+// console.log(combineFruit(["apple", "pear"],
+//              ["cake", "pie"],
+//              ["carrot"]))
+//=> {
+    //     fruit: ["apple", "pear"],
+    //     sweets: ["cake", "pie"],
+    //     vegetables: ["carrot"]
+    //  }
+
+
+    // Use destructuring to use the property names as variables. Desructure the object in the parameter:
+
+//     const vacation = {  
+//         location: "Burly Idaho",
+//         duration: "2 weeks"
+//       };
+      
+//       function parseSentence({location, duration}){
+//         return `We're going to have a good time in ${location} for ${duration}`
+//       }
+// console.log(parseSentence(vacation))
+
+
+// Use destructuring to make this code ES6:
+const items = ["hi", "bye"]
+
+function returnFirst(items){
+    const firstItem = items[0]; /*change this line to be es6*/
+    return firstItem
+}
+console.log(returnFirst(items))
+
+      

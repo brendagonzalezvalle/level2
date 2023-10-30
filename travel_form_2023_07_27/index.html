@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+
+        
+        
+        <form name="travelForm" class="travelForm-container">
+            
+        <h1 id="title">Fill out the Travel Form:</h1>
+
+
+        <h4>Name:</h4>
+        <input class="formInputs" type="text" placeholder="First Name" name="firstName" > 
+
+        <h4>Last Name:</h4> 
+        <input class="formInputs" type="text" placeholder="Last Name" name="lastName" >
+
+        <h4>How old are you?</h4>
+        <input class="formInputs" type="number" placeholder="Age" name="age">
+        
+
+        <h4>Male:</h4> 
+        <input type="radio" name="gender" value="Male" class="radioButtons">
+
+        <h4>Female:</h4> 
+        <input type="radio" name="gender" value="Female" class="radioButtons">
+
+    
+        <h4>Select a destination:</h4>
+        <select class="formInputs" name="locations">
+            <option value="New York"> New York </option>
+            <option value="Paris"> Paris </option>
+            <option value="Mexico"> Mexico </option>
+        </select>
+
+        
+
+       <h4>Check all that apply below. Do you have any diet restrictions?</h4> 
+        
+        <h4>Vegeterian:</h4>
+        <input type="checkbox" name="dietRestrictions" value="Vegeterian" class="checkedInputs" >
+
+        <h4>Lactose:</h4>
+        <input type="checkbox" name="dietRestrictions" value="Lactose" class="checkedInputs"  >
+
+        <h4>Gluten Free:</h4>
+        <input type="checkbox" name="dietRestrictions" value="Gluten Free" class="checkedInputs" >
+
+
+        <button id="button"> Submit ! </button>
+
+
+
+
+
+
+       </form>
+
+
+    </body>
+
+    <script src="app.js"> </script>
+</html>

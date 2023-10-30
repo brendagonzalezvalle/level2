@@ -1,0 +1,74 @@
+{
+    "appetizers": [
+        {
+            "name": "Egg rolls",
+            "ingredients": ["eggs", "veggies", "wonton wraps"],
+            "description": "Not Healthy"
+
+
+        },
+        {
+            "name": "Meatballs",
+            "ingredients": ["beef", "teriyaki sauce"],
+            "description": "Low Carb"
+
+        }
+    ],
+
+    "cold sandwiches": [
+        {
+            "name": "BLT",
+            "ingredients": ["bacon", "bread", "lettuce", "tomato"],
+            "description": "cold sandwich 1"
+
+        },
+        {
+            "name": "Ham Sub",
+            "ingredients": ["ham", "mayo", "white bread"],
+            "description":  "cold sandwich 2"
+        }
+    ],
+
+    "hot sandwiches": [
+        {
+            "name": "Bacon Gouda",
+            "ingredients": ["bacon", "gouda", "bread"],
+            "description": "hot sandwich 1"
+
+        },
+        {
+            "name": "Egg Mcmuffin",
+            "ingredients": ["egg", "sausage", "buns"],
+            "description": "hot sandwich 2"
+        }
+    ],
+
+    "desserts": [
+        {
+            "name": "Donut",
+            "ingredients": ["flour", "chocolate", "sprinkles"],
+            "description": "dessert 1"
+
+        },
+        {
+            "name": "Parfait",
+            "ingredients": ["yogurt", "granola", "fruit"],
+            "description": "dessert 2"
+        }
+    ],
+
+    "drinks": [
+        {
+            "name": "Moscow Mules",
+            "ingredients": ["ginger", "lime", "vodka"],
+            "description": "beverage # 1"
+
+        },
+        {
+            "name": "Redbull Vodka",
+            "ingredients": ["redbull", "vodka"],
+            "description": "beverage # 2"
+        }
+    ]
+
+}

@@ -1,0 +1,125 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+
+/* box containers styling */
+
+.box-container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* box 1 styling */
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    margin: 20px;
+    transition: background-color 1s linear 1s, width 1s ease-in;
+}
+
+#box1:hover {
+
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+/* box 2 styling */
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    margin: 20px;
+    transition: border-radius 1s ease 1s, box-shadow 1s linear, background-color linear;
+}
+
+#box2:hover {
+    border-radius: 40px;
+    box-shadow: aquamarine;
+    background-color: navy;
+}
+
+
+/* box 3 styling */
+#box3 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    margin: 20px;
+    transition: background-color 1s linear 1s, width 1s ease-in-out 1s, height 1s linear 2s;
+}
+
+#box3:hover {
+
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+
+}
+
+/* box 4 styling */
+#box4 {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    margin: 20px;
+    transition:  background-color 1s ease-in, margin 4s linear 1s;
+}
+
+#box4:hover {
+
+    margin: 200px;
+    background-color: blueviolet;
+
+}
+
+
+/* box 5 styling */
+#box5 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    margin: 20px;
+    transition: background-color 1s linear 1s, width 1s ease-out;
+}
+
+#box5:hover {
+
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+/* box 6 styling */
+
+#box6 {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    margin: 20px;
+    transition: background-color 5s ease 1s, border-radius 3s linear 1s;
+}
+
+#box6:hover {
+
+    border-radius: 20px;
+    background-color: purple;
+}
